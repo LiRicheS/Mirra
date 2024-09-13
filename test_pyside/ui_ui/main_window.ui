@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>519</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>418</width>
+    <height>582</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>REM</family>
+    <pointsize>10</pointsize>
+    <italic>true</italic>
+    <bold>false</bold>
+    <underline>false</underline>
+    <stylestrategy>PreferAntialias</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string> Мира v0.4</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../res_qrc/res_rc.qrc">
+    <normaloff>:/icon/icons/radio_button_checked_FILL0_wght400_GRAD0_opsz48.png</normaloff>:/icon/icons/radio_button_checked_FILL0_wght400_GRAD0_opsz48.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qlineargradient(spread:reflect, x1:0.380682, y1:0.443, x2:1, y2:1, stop:0.153409 rgba(47, 69, 142, 255), stop:1 rgba(191, 87, 175, 255));
+font-family: REM;</string>
+  </property>
+  <widget class="QWidget" name="main_widget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="mic_on">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>570</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string>старт</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: none;
+	border: none;
+
+}
+
+QPushButton:hover{
+	background-color: rgba(255,255,255,30);
+	border:1px solid rgba(255,255,255,40);
+	border-radius:20px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(255,255,255,85);
+	opacity:0.2;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../res_qrc/res_rc.qrc">
+      <normaloff>:/icon/icons/mic_FILL0_wght100_GRAD-25_opsz48.png</normaloff>:/icon/icons/mic_FILL0_wght100_GRAD-25_opsz48.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="info">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;инстркукция к боту&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: none;
+	border: none;
+
+}
+
+QPushButton:hover{
+	background-color: rgba(255,255,255,30);
+	border:1px solid rgba(255,255,255,40);
+	border-radius:14px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(255,255,255,85);
+	opacity:0.2;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../res_qrc/res_rc.qrc">
+      <normaloff>:/icon/icons/help_FILL0_wght100_GRAD-25_opsz48.png</normaloff>:/icon/icons/help_FILL0_wght100_GRAD-25_opsz48.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mic_off">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>570</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string>стоп</string>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: none;
+	border: none;
+
+}
+
+QPushButton:hover{
+	background-color: rgba(255,255,255,30);
+	border:1px solid rgba(255,255,255,40);
+	border-radius:20px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(255,255,255,85);
+	opacity:0.2;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../res_qrc/res_rc.qrc">
+      <normaloff>:/icon/icons/mic_off_FILL0_wght100_GRAD-25_opsz48.png</normaloff>:/icon/icons/mic_off_FILL0_wght100_GRAD-25_opsz48.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>421</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>REM</family>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{
+	background-color: rgba(255,255,255,30);
+	border:2px solid rgba(255,255,255,50);
+	border-radius: 15px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear_poleList">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;очистить поле вывода&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: none;
+	border: none;
+
+}
+
+QPushButton:hover{
+	background-color: rgba(255,255,255,30);
+	border:1px solid rgba(255,255,255,40);
+	border-radius:14px;
+}
+
+QPushButton:pressed{
+	background-color: rgba(255,255,255,85);
+	opacity:0.2;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../res_qrc/res_rc.qrc">
+      <normaloff>:/icon/icons/delete_FILL0_wght100_GRAD-25_opsz48.png</normaloff>:/icon/icons/delete_FILL0_wght100_GRAD-25_opsz48.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>33</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../res_qrc/res_rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

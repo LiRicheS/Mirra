@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>../icons/help_FILL0_wght100_GRAD-25_opsz48.png</file>
+    <file>../icons/delete_FILL0_wght100_GRAD-25_opsz48.png</file>
+    <file>../icons/mic_FILL0_wght100_GRAD-25_opsz48.png</file>
+    <file>../icons/mic_off_FILL0_wght100_GRAD-25_opsz48.png</file>
+    <file>../icons/radio_button_checked_FILL0_wght400_GRAD0_opsz48.png</file>
+    <file>../icons/settings_FILL0_wght100_GRAD-25_opsz48.png</file>
+  </qresource>
+</RCC>

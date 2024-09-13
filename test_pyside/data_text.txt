@@ -1,0 +1,59 @@
+================================================
+        Система
+        fSystem: Windows
+        fNode Name: DESKTOP-MEUKEJ7
+        fRelease: 10
+        fVersion: 10.0.19045
+        fMachine: AMD64
+        fProcessor: Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+        nt
+        =================================================
+        время работы системного процессора        scputimes(user=1524.921875, system=780.03125, idle=26332.03125, interrupt=63.21875, dpc=149.234375)
+        =================================================
+        текущая загрузка ЦП в процентах
+        12.5
+        =================================================
+        количество логических и физических процессоров
+        8
+        =================================================
+        различная статистика ЦП
+        scpustats(ctx_switches=59401730, interrupts=41345494, soft_interrupts=0, syscalls=232399915)
+        =================================================
+        частота ЦП
+        scpufreq(current=2496.0, min=0.0, max=2496.0)
+        =================================================
+        средняя загрузка системы
+        (0.0, 0.0, 0.0)
+        =================================================
+        время загрузки системы
+        1691651303.407145
+        =================================================
+        статистика об использовании системной памяти RAM
+        svmem(total=17041244160, available=9040248832, percent=47.0, used=8000995328, free=9040248832)
+        =================================================
+        статистика об использовании SWAP
+        sswap(total=6979321856, used=2563768320, free=4415553536, percent=36.7, sin=0, sout=0)
+        =================================================
+        все смонтированные разделы диска
+        [sdiskpart(device='C:\\', mountpoint='C:\\', fstype='NTFS', opts='rw,fixed', maxfile=255, maxpath=260), sdiskpart(device='D:\\', mountpoint='D:\\', fstype='NTFS', opts='rw,fixed', maxfile=255, maxpath=260)]
+        =================================================
+        общесистемная статистика дискового ввода-вывода
+        sdiskio(read_count=760328, write_count=108184, read_bytes=10881134080, write_bytes=1949016576, read_time=809, write_time=54)
+        =================================================
+        общесистемная статистика сетевого ввода-вывода
+        snetio(bytes_sent=13174418, bytes_recv=111520236, packets_sent=53267, packets_recv=94547, errin=0, errout=0, dropin=0, dropout=0)
+        =================================================
+        адреса, связанные с каждой сетевой картой
+        {'Ethernet': [snicaddr(family=<AddressFamily.AF_LINK: -1>, address='8C-8C-AA-2B-9B-E4', netmask=None, broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET: 2>, address='169.254.197.175', netmask='255.255.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='fe80::7701:fa4b:ae2c:ccfe', netmask=None, broadcast=None, ptp=None)], 'Ethernet 2': [snicaddr(family=<AddressFamily.AF_LINK: -1>, address='0A-00-27-00-00-0F', netmask=None, broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET: 2>, address='192.168.56.1', netmask='255.255.255.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='fe80::e5ba:4cc7:ef2f:f8b2', netmask=None, broadcast=None, ptp=None)], 'Подключение по локальной сети* 1': [snicaddr(family=<AddressFamily.AF_LINK: -1>, address='34-C9-3D-84-56-8A', netmask=None, broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET: 2>, address='169.254.184.251', netmask='255.255.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='fe80::aa96:6ff8:d17b:e2af', netmask=None, broadcast=None, ptp=None)], 'Подключение по локальной сети* 2': [snicaddr(family=<AddressFamily.AF_LINK: -1>, address='36-C9-3D-84-56-89', netmask=None, broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET: 2>, address='169.254.216.137', netmask='255.255.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='fe80::abb5:a16a:4e46:f3c6', netmask=None, broadcast=None, ptp=None)], 'Беспроводная сеть': [snicaddr(family=<AddressFamily.AF_LINK: -1>, address='34-C9-3D-84-56-89', netmask=None, broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET: 2>, address='172.20.10.2', netmask='255.255.255.240', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='2a03:d000:8504:a281:9a74:21da:3a43:4c6e', netmask=None, broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='2a03:d000:8504:a281:61c2:3ccf:6118:3db', netmask=None, broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='fe80::8075:4524:a51d:7232', netmask=None, broadcast=None, ptp=None)], 'Подключение по локальной сети': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='169.254.82.140', netmask='255.255.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='fe80::a408:31c5:751a:2d90', netmask=None, broadcast=None, ptp=None)], 'Loopback Pseudo-Interface 1': [snicaddr(family=<AddressFamily.AF_INET: 2>, address='127.0.0.1', netmask='255.0.0.0', broadcast=None, ptp=None), snicaddr(family=<AddressFamily.AF_INET6: 23>, address='::1', netmask=None, broadcast=None, ptp=None)]}
+        =================================================
+        информацию о каждой сетевой карте
+        {'Ethernet': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=0, mtu=1500, flags=''), 'Ethernet 2': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500, flags=''), 'Loopback Pseudo-Interface 1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1073, mtu=1500, flags=''), 'Подключение по локальной сети': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=4294, mtu=1500, flags=''), 'Беспроводная сеть': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=115, mtu=1500, flags=''), 'Подключение по локальной сети* 1': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=0, mtu=1500, flags=''), 'Подключение по локальной сети* 2': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=0, mtu=1500, flags='')}
+        =================================================
+         список текущих запущенных PID
+        [0, 4, 72, 132, 304, 412, 556, 756, 852, 936, 948, 980, 1084, 1116, 1152, 1212, 1264, 1360, 1416, 1452, 1488, 1532, 1556, 1584, 1632, 1640, 1732, 1756, 1764, 1804, 1812, 1844, 1888, 1944, 1948, 2068, 2092, 2104, 2252, 2260, 2308, 2316, 2340, 2372, 2452, 2500, 2516, 2564, 2596, 2612, 2648, 2656, 2672, 2700, 2796, 2804, 2812, 2836, 2864, 2884, 3092, 3144, 3256, 3316, 3348, 3404, 3416, 3428, 3448, 3472, 3536, 3552, 3660, 3684, 3732, 3744, 3868, 3876, 3932, 4012, 4020, 4180, 4200, 4264, 4272, 4280, 4288, 4296, 4304, 4312, 4324, 4332, 4340, 4368, 4376, 4408, 4432, 4444, 4452, 4464, 4500, 4524, 4560, 4572, 4580, 4588, 4596, 4636, 4648, 4668, 4676, 4712, 4732, 4800, 4908, 4940, 4952, 5096, 5128, 5204, 5248, 5372, 5396, 5552, 5608, 5616, 5636, 5676, 5744, 5828, 5956, 6076, 6108, 6116, 6192, 6348, 6696, 6760, 6964, 6972, 6988, 7040, 7052, 7380, 7532, 7604, 7688, 8144, 8168, 8204, 8232, 8308, 8520, 8804, 8872, 8940, 9116, 9168, 9208, 9256, 9272, 9300, 9464, 9536, 9556, 9564, 9612, 9688, 9832, 10064, 10160, 10180, 10200, 10416, 10460, 10644, 10712, 10756, 10804, 11032, 11120, 11176, 11232, 11672, 11700, 11708, 11988, 12256, 12632, 12640, 12700, 12896, 13048, 13072, 13076, 13160, 13184, 13204, 13264, 13284, 13336, 13388, 13448, 13528, 13608, 13644, 13660, 13776, 13816, 13828, 13880, 13952, 14000, 14072, 14368, 14528, 14616, 14624, 14796, 14876, 15060, 15076, 15200, 15252, 15356, 15420, 15796, 15844, 15924, 16100, 16328, 16744, 16748, 17188, 17528, 17852, 17900, 18292, 18296, 18872, 19236, 19324]
+        =================================================
+        информация о состоянии батареи
+        sbattery(percent=98, secsleft=<BatteryTime.POWER_TIME_UNLIMITED: -2>, power_plugged=True)
+        =================================================
+        итератор экземпляров всех служб Windows
+        <generator object win_service_iter at 0x000001DB627276A0>
